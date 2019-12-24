@@ -1,5 +1,41 @@
 body {
-    font-family: font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Random */
+a:visited {
+   color: #050505;
+}
+
+/* Card */
+.card {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card__btn {
     font-size: 48px;
-    color: #fffcf1;
+  display: block;
+  width: 150px;
+  margin: 407px auto;
+  padding: 6px;
+  border: 2px solid #050505;
+  cursor: pointer;
+    transition: 1s linear;
+}
+
+.card__btn:hover {
+  color: #fff;
+  border-color: #fff;
+    background: #050505;
 }
