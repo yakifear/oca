@@ -5,7 +5,15 @@ body {
 }
 
 /* Random */
+a {
+    color : #0e0e0e;
+}
+
 a:visited {
+    color: #0e0e0e;
+}
+    
+a:active {
     color: #0e0e0e;
 }
 
