@@ -1,20 +1,23 @@
+html {
+    cursor: help;
+}
+
 body {
     font-family: 'Amatic SC', cursive;
-    max-width: 100%;
     vertical-align: middle;
 }
 
 /* Random */
 a {
-    color : #0e0e0e;
+    color : #1b2735;
 }
 
 a:visited {
-    color: #0e0e0e;
+    color: #1b2735;
 }
     
 a:active {
-    color: #0e0e0e;
+    color: #1b2735;
 }
 
 *,
@@ -37,7 +40,7 @@ a:active {
     width: 150px;
     margin: 407px auto;
     padding: 6px;
-    border: 2px solid #0e0e0e;
+    border: 2px solid #1b2735;
     cursor: pointer;
     transition: .5s linear;
     text-decoration: none;
@@ -46,5 +49,5 @@ a:active {
 .card__btn:hover {
     color: #fffefc;
     border-color: #fffefc;
-    background: #0e0e0e;
+    background: #1b2735;
 }
